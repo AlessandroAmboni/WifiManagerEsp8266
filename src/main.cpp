@@ -8,7 +8,7 @@
 //variáveis globais
 #define BUTTON_PIN D7
 
-// tempo limite para configuração do wifi do portal, utilizada na função onDemandAPMode
+// tempo limite para configuração do wifi do portal, utilizada na função onDemandAPMode, útil para caso haja quedas na rede wifi ou energia, para que o esp não fique preso no modo AP
 const int timeout = 30;
 
 // inicializa a biblioteca WiFiManager
